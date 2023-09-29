@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat',sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://foolishdeveloper.com/wp-content/uploads/2023/05/Temperature-Converter-App-in-React-768x402.webp');
+    background-position: center;
+    background-size: cover;
+  }
+
+  .container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    border-color: #000000;
+    border-style: solid;
+    box-shadow: #050505 ;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  label,
+  input,
+  button {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input {
+    padding: 5px;
+    width: 100%;
+  }
+
+  button {
+    background-color: #159cab;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    background-color: rgb(206, 196, 19);
+  }
